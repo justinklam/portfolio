@@ -29,6 +29,27 @@
   overflow: hidden;
 }
 
+.i-title-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+/* Title Animation */
+@keyframes move {
+  25%{
+    transform: translateY(-50px);
+  }
+  50%{
+    transform: translateY(-100px);
+  }
+  75%{
+    transform: translateY(-150px);
+  }
+  100%{
+    transform: translateY(-200px);
+  }
+}
+
 .i-title-item {
   height: 50px;
   font-size: 30px;
