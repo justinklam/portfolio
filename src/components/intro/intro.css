@@ -74,13 +74,6 @@
   position: absolute;
 }
 
-.i-scroll {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 20px;
-}
-
 .i-bg {
   clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   background-color:rgb(0, 0, 110);
