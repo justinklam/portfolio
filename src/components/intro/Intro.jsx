@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./intro.css";
 
 const Intro = () => {
   return (
-    <div>Intro</div>
+    <div className="i">
+      <div className="i-left">left</div>
+      <div className="i-right">right</div>
+    </div>
   )
 }
 
