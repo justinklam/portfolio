@@ -1,12 +1,13 @@
 import React from 'react';
 import "./intro.css";
+import profile from "../../img/profile.jpg"
 
 const Intro = () => {
   return (
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, my name is</h2>
+          <h2 className="i-intro">Hello world, my name is</h2>
           <h2 className="i-name">Justin</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -23,7 +24,9 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="i-right">right</div>
+      <div className="i-right">
+        <img src={profile} alt="" className="i-img" />
+      </div>
     </div>
   )
 }
