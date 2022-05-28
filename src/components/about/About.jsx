@@ -14,6 +14,7 @@ const About = () => {
         />
       </div>
     </div>
+    
     <div className="a-right">
       <h1 className="a-title">About Me</h1>
       <p className="a-sub">
