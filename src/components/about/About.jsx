@@ -4,7 +4,8 @@ import "./about.css";
 const About = () => {
   return (
     <div classname="a">
-      about
+      <div className="a-left"></div>
+      <div className="a-right"></div>
     </div>
   )
 }

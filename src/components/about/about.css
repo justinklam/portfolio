@@ -1,0 +1,13 @@
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.a-left {
+  flex: 1;
+}
+
+.a-right {
+  flex: 1
+}
