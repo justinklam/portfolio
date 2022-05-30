@@ -1,5 +1,6 @@
 import React from 'react';
 import "./about.css";
+import profilePic from "../../img/profile-resize.jpg"
 
 const About = () => {
   return (
@@ -8,7 +9,9 @@ const About = () => {
       <div className="a-card bg"></div>
       <div className="a-card">
         <img
-          src="https://images.pexels.com/photos/7858744/pexels-photo-7858744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        // alternative art
+        // https://images.pexels.com/photos/7858744/pexels-photo-7858744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+          src={profilePic}
           alt=""
           className="a-img"
         />
