@@ -7,9 +7,9 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Placeholder</h1>
+        <h1 className="pl-title">Portfolio</h1>
         <p className="pl-desc">
-          Placeholder placeholder
+          My Projects
         </p>
       </div>
       <div className="pl-list">
@@ -17,10 +17,6 @@ const ProductList = () => {
           <Product key={item.id} img={item.img} link={item.link}/>
         ))}
       </div>
-      {/* placeholder site*/}
-      <a href="http://www.google.ca" target="_blank" rel="noreferrer">
-        <img src="" alt="" className="p-img" />
-      </a>
     </div>
   )
 };
