@@ -1,6 +1,7 @@
 import pomopetsImage from "./img/pomo-pets.png";
 import recipeRepoImage from "./img/recipe-repo.png";
 import jungleImage from "./img/jungle.png";
+import schedulerImage from "./img/scheduler.png";
 import tweeterImage from "./img/tweeter.png";
 import weatherReactImage from "./img/weather-react.png";
 
@@ -22,7 +23,7 @@ export const products = [
   },
   {
     id: 4,
-    img: scheduler,
+    img: schedulerImage,
     link: "https://github.com/justinklam/scheduler"
   },
   {

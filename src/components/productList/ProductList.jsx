@@ -1,6 +1,7 @@
 import React from 'react'
 import "./productList.css";
 import Product from '../product/Product';
+import {products} from "../../data";
 
 const ProductList = () => {
   return (
@@ -12,12 +13,14 @@ const ProductList = () => {
         </p>
       </div>
       <div className="pl-list">
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
+        {products.map((item) => (
+          <Product/>
+        ))}
       </div>
+      {/* placeholder site*/}
+      <a href="http://www.google.ca" target="_blank" rel="noreferrer">
+        <img src="" alt="" className="p-img" />
+      </a>
     </div>
   )
 };
