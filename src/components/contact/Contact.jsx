@@ -4,7 +4,13 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="c">
-      Contact
+      <div className="c-bg"></div>
+      <div className="c-wrapper">
+        <div className="c-left">
+          <h1 className="c-title">Contact Me</h1>
+        </div>
+        <div className="c-right"></div>
+      </div>
     </div>
   )
 };
