@@ -21,11 +21,11 @@ const Contact = () => {
       )
     .then((result) => {
         console.log(result.text);
+        e.target.reset();
     }, (error) => {
         console.log(error.text);
     });
     // to reset email text
-    e.target.reset();
   };
 
   return (
