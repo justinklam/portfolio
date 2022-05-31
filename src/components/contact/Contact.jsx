@@ -34,7 +34,7 @@ const Contact = () => {
 
         <div className="c-right">
           <p className="c-desc">
-              <b>Reach out to me here!</b>
+              {/* <b>Reach out to me here!</b> */}
           </p>
           <form>
             <input type="text" placeholder="Name" name="user_name"/>
