@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import "./contact.css";
 import emailjs from '@emailjs/browser';
 
@@ -9,6 +9,7 @@ import EmailImg from "../../img/email.png";
 
 const Contact = () => {
   const formRef = useRef();
+  const [complete, setComplete] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,6 +22,7 @@ const Contact = () => {
       )
     .then((result) => {
         console.log(result.text);
+        setComplete(true);
         e.target.reset();
     }, (error) => {
         console.log(error.text);
@@ -62,9 +64,11 @@ const Contact = () => {
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name"/>
             <input type="text" placeholder="Subect" name="user_subject"/>
-            <input type="text" placeholder="Email" name="user_email"/>
+            <input type="email" placeholder="Email" name="user_email"/>
             <textarea rows="5" placeholder="Message" name="message"></textarea>
             <button>Submit</button>
+            {/* Return message on Submit press*/}
+            {complete && "Thank you for your message"}
           </form>
         </div>
       </div>
