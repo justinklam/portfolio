@@ -22,3 +22,21 @@
 .c-right {
   flex: 1;
 }
+
+.c-title {
+  font-size: 60px;
+  width: 80%;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px; 
+  font-weight: 300;
+}
+
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
