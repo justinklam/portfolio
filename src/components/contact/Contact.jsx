@@ -2,7 +2,7 @@ import React from 'react';
 import "./contact.css";
 import AddressImg from "../../img/address.png";
 import EmailImg from "../../img/email.png";
-import PhoneImg from "../../img/phone.png";
+// import PhoneImg from "../../img/phone.png";
 
 const Contact = () => {
   return (
@@ -19,7 +19,7 @@ const Contact = () => {
                 alt="" 
                 className="c-icon" 
               />
-              E-mail me here!
+              E-mail me!
             </div>
             <div className="c-info-item">
               <img 
