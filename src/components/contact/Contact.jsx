@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./contact.css";
 import AddressImg from "../../img/address.png";
 import EmailImg from "../../img/email.png";
 // import PhoneImg from "../../img/phone.png";
 
 const Contact = () => {
+  const formRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
+
   return (
     <div className="c">
       <div className="c-bg"></div>
@@ -36,12 +42,11 @@ const Contact = () => {
           <p className="c-desc">
               {/* <b>Reach out to me here!</b> */}
           </p>
-          <form>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name"/>
             <input type="text" placeholder="Subect" name="user_subject"/>
             <input type="text" placeholder="Email" name="user_email"/>
             <textarea rows="5" placeholder="Message" name="message"></textarea>
-            
             <button>Submit</button>
           </form>
         </div>
