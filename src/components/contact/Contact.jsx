@@ -1,5 +1,8 @@
 import React, { useRef } from 'react';
 import "./contact.css";
+import emailjs from '@emailjs/browser';
+
+// Image Assets
 import AddressImg from "../../img/address.png";
 import EmailImg from "../../img/email.png";
 // import PhoneImg from "../../img/phone.png";
@@ -9,7 +12,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  }
+
+    emailjs.sendForm(
+      'service_18rokgu', 
+      'template_nqqtns9', 
+      formRef.current, 
+      'KYowkfYBt_8fTeWiP'
+      )
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    // to reset email text
+    e.target.reset();
+  };
 
   return (
     <div className="c">
