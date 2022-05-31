@@ -19,7 +19,7 @@ const Contact = () => {
                 alt="" 
                 className="c-icon" 
               />
-              E-mail me!
+              E-mail
             </div>
             <div className="c-info-item">
               <img 
@@ -32,7 +32,18 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="c-right"></div>
+        <div className="c-right">
+          <p className="c-desc">
+              <b>Reach out to me here!</b>
+          </p>
+          <form>
+            <input type="text" placeholder="Name" name="user_name"/>
+            <input type="text" placeholder="Subect" name="user_subject"/>
+            <input type="text" placeholder="Email" name="user_email"/>
+            <textarea rows="5" placeholder="Message" name="message"></textarea>
+            <button>Submit</button>
+          </form>
+        </div>
       </div>
     </div>
   )
