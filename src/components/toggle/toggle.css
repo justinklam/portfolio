@@ -17,3 +17,12 @@
   width: 20px;
   height: 20px;
 }
+
+.t-button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #999;
+  position: absolute;
+  cursor: pointer;
+}
