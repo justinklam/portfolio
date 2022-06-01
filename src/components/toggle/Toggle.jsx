@@ -8,7 +8,8 @@ import Dark from "../../img/dark-mode.png";
 const Toggle = () => {
   return (
     <div className="t">
-      <img src="" alt="" className="t-icon"/>
+      <img src={Light} alt="" className="t-icon"/>
+      <img src={Dark} alt="" className="t-icon"/>
     </div>
   )
 };
