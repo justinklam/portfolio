@@ -5,6 +5,7 @@ import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 
 const App = () => {
+
   return <div>
     <Toggle/>
     <Intro/>
