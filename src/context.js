@@ -18,7 +18,7 @@ export const ThemeProvider = (props) => {
 
   return (
     <ThemeContext.Provider 
-      value={(state, dispatch)}>{props.children}
+      value={{state, dispatch}}>{props.children}
     </ThemeContext.Provider>
   );
 };
