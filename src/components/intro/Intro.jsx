@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../context';
 import "./intro.css";
 import profile from "../../img/profile.png"
 
 const Intro = () => {
+  
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
       <div className="i-left">
@@ -11,11 +16,11 @@ const Intro = () => {
           <h2 className="i-name">Justin</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Full-stack Developer</div>
-              <div className="i-title-item">JavaScript Developer</div>
-              <div className="i-title-item">React Developer</div>
-              <div className="i-title-item">HTML/CSS Developer</div>
-              <div className="i-title-item">NodeJS Developer</div>
+              <div className="i-title-item" style={{color: darkMode && "#6767ef"}}>Full-stack Developer</div>
+              <div className="i-title-item" style={{color: darkMode && "#6767ef"}}>JavaScript Developer</div>
+              <div className="i-title-item" style={{color: darkMode && "#6767ef"}}>React Developer</div>
+              <div className="i-title-item" style={{color: darkMode && "#6767ef"}}>HTML/CSS Developer</div>
+              <div className="i-title-item" style={{color: darkMode && "#6767ef"}}>NodeJS Developer</div>
             </div>
           </div>
           <p className="i-desc">
