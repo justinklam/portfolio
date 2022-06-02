@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../context';
 import "./toggle.css";
 
 // Art assets
@@ -6,11 +7,18 @@ import Light from "../../img/light-mode.png";
 import Dark from "../../img/dark-mode.png";
 
 const Toggle = () => {
+
+  const theme = useContext(ThemeContext);
+
+  const handleClick = () => {
+    theme.dispatch({type:"TOGGLE"});
+  };
+
   return (
     <div className="t">
       <img src={Light} alt="" className="t-icon"/>
       <img src={Dark} alt="" className="t-icon"/>
-      <div className="t-button">
+      <div className="t-button" onClick={handleClick}>
         
       </div>
     </div>
