@@ -9,7 +9,7 @@ import ProductList from "./components/productList/ProductList";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
-
+  
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
