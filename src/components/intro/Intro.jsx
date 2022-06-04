@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../context';
 import "./intro.css";
-import profile from "../../img/profile.png"
+// import profile from "../../img/profile.png"
 
 const Intro = () => {
   
@@ -12,7 +12,7 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello world, my name is</h2>
+          <h2 className="i-intro">Hello World, my name is</h2>
           <h2 className="i-name">Justin</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -88,7 +88,7 @@ const Intro = () => {
 
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={profile} alt="" className="i-img" />
+        {/* <img src={profile} alt="" className="i-img" /> */}
       </div>
     </div>
   )
