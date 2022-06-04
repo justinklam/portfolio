@@ -101,5 +101,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 100%;
+  }
+
+  .i-desc {
+    display: none;
   }
 }
