@@ -94,4 +94,14 @@ button {
     margin-top: 20px 0px;
     width: 100%;
   }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
