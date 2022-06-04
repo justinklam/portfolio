@@ -56,4 +56,8 @@
   .a-card.bg {
     display: none;
   }
+
+  .a-right {
+    padding: 20px;
+  }
 }
