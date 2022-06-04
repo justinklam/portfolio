@@ -43,20 +43,20 @@ const Contact = () => {
           <h1 className="c-title">Contact Me</h1>
           <div className="c-info">
             <div className="c-info-item">
+                <img 
+                  src={AddressImg} 
+                  alt="" 
+                  className="c-icon" 
+                />
+                Toronto, Ontario
+              </div>
+            <div className="c-info-item">
               <img 
                 src={EmailImg} 
                 alt="" 
                 className="c-icon" 
               />
-              E-mail
-            </div>
-            <div className="c-info-item">
-              <img 
-                src={AddressImg} 
-                alt="" 
-                className="c-icon" 
-              />
-              Toronto, Ontario
+              {/* E-mail */}
             </div>
           </div>
         </div>

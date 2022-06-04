@@ -104,4 +104,11 @@ button {
     display: flex;
     flex-wrap: wrap;
   }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
 }
