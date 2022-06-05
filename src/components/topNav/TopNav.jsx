@@ -7,9 +7,10 @@ const TopNav = () => {
     <div class="topbar">
       <div className="topbar-wrapper">
         <div className="topbar-left">
-          <a href="/"><img src={Logo} alt="Logo" /></a>
+          <a className="logo" href="/"><img src={Logo} alt="Logo" /></a>
         </div>
-        <div className="topbar-right"></div>
+        <div className="topbar-right">
+        </div>
       </div>
     </div>
   )
