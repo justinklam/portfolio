@@ -1,9 +1,17 @@
 import React from 'react'
 import "./topNav.css";
+import Logo from "../../img/logo.png"
 
 const TopNav = () => {
   return (
-    <div>TopNav</div>
+    <div class="topbar">
+      <div className="topbar-wrapper">
+        <div className="topbar-left">
+          <a href="/"><img src={Logo} alt="Logo" /></a>
+        </div>
+        <div className="topbar-right"></div>
+      </div>
+    </div>
   )
 }
 
