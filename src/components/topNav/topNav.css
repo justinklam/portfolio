@@ -6,3 +6,10 @@
   opacity: 0.5;
   z-index: 2;
 }
+
+.wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
