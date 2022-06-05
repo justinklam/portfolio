@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { ThemeContext } from "./context";
 
 // Components
+import TopNav from "./components/topNav/TopNav";
 import Toggle from "./components/toggle/Toggle";
 import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
@@ -21,6 +22,7 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
+      <TopNav/>
       <Toggle/>
       <Intro/>
       <About/>
