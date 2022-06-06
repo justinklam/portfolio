@@ -6,6 +6,7 @@ const TopNav = () => {
   return (
     <div class="topbar">
       <div className="topbar-wrapper">
+        
         <div className="topbar-left">
           <a className="logo" href="/"><img src={Logo} alt="Logo" /></a>
         </div>
@@ -17,8 +18,8 @@ const TopNav = () => {
             <span className="line3"></span>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   )
 }
