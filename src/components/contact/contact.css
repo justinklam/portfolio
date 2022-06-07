@@ -117,7 +117,7 @@ button {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 860px){
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;

@@ -62,7 +62,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
   .a {
     flex-direction: column;
     text-align: center;
