@@ -28,3 +28,9 @@
   height: 3px;
   background-color: rgb(108, 108, 108);
 } */
+
+@media screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+}
