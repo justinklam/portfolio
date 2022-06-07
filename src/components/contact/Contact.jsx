@@ -4,8 +4,9 @@ import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
 
 // Image Assets
+import LinkedInImg from "../../img/linkedIn.png";
+import GitHubImg from "../../img/github.png";
 import AddressImg from "../../img/address.png";
-import LinkedInImg from "../../img/linkedIn.png"
 // import EmailImg from "../../img/email.png";
 // import PhoneImg from "../../img/phone.png";
 
@@ -43,14 +44,15 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Contact Me</h1>
           <div className="c-info">
+
             <div className="c-info-item">
-              <a href="https://www.google.com/maps/place/Toronto,+ON/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843"><img 
-                  src={AddressImg} 
-                  alt="" 
-                  className="c-icon" 
-                />
-                Toronto, Ontario</a>
-              </div>
+              <a href="https://github.com/justinklam"><img 
+                src={GitHubImg} 
+                alt="" 
+                className="c-icon" 
+              />
+              My GitHub Profile</a>
+            </div>
             <div className="c-info-item">
               <a href="https://www.linkedin.com/in/justinkhlam/"><img 
                 src={LinkedInImg} 
@@ -59,6 +61,15 @@ const Contact = () => {
               />
               My LinkedIn Profile</a>
             </div>
+            <div className="c-info-item">
+              <a href="https://www.google.com/maps/place/Toronto,+ON/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843"><img 
+                  src={AddressImg} 
+                  alt="" 
+                  className="c-icon" 
+                />
+                Toronto, Ontario</a>
+              </div>
+
           </div>
         </div>
 
