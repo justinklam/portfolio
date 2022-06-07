@@ -24,7 +24,7 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            Full-stack developer and JavaScript enthusiast
+            {/* Full-stack developer and JavaScript enthusiast */}
           </p>
         </div>
       </div>
