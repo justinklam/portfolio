@@ -1,5 +1,7 @@
 import React from 'react'
 import "./topNav.css";
+
+// Image Assets
 import Logo from "../../img/logo.png"
 
 const TopNav = () => {
@@ -12,11 +14,11 @@ const TopNav = () => {
         </div>
 
         <div className="topbar-right">
-          <div className="hamburger">
+          {/* <div className="hamburger">
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
-          </div>
+          </div> */}
         </div>
 
       </div>
