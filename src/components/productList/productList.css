@@ -49,6 +49,10 @@
     width: 100%;
   }
 
+  .pl-lists {
+    width: 40%;
+  }
+
   /* .pl-desc {
     display: none;
   } */
