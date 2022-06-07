@@ -7,7 +7,11 @@
   z-index: 2;
 }
 
-.wrapper {
+.topbar &.active {
+  background-color: white;  
+}
+
+.topbar-wrapper {
   padding: 10px 30px;
   display: flex;
   align-items: center;
@@ -21,7 +25,6 @@
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  /* background-color: blue; */
 }
 
 .hamburger > span {
