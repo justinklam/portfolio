@@ -84,7 +84,7 @@ const Contact = () => {
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message"></textarea>
             <button>Submit</button>
             {/* Return message on Submit press*/}
-            {complete && "Thank you for your message"}
+            {complete && " Thank you for your message!"}
           </form>
         </div>
       </div>
