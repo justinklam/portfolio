@@ -5,8 +5,8 @@ import { ThemeContext } from '../../context';
 
 // Image Assets
 import AddressImg from "../../img/address.png";
-import EmailImg from "../../img/email.png";
 import LinkedInImg from "../../img/linkedIn.png"
+// import EmailImg from "../../img/email.png";
 // import PhoneImg from "../../img/phone.png";
 
 const Contact = () => {
