@@ -21,13 +21,12 @@ const About = () => {
     <div className="a-right">
       <h1 className="a-title">About Me</h1>
       <p className="a-sub">
-        This is a placeholder section until I figure out what I want to write.
+        I'm a full-stack developer that loves finding unique solutions to challenging problems.
       </p>
       <p className="a-desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        I was born and raised in Canada. I graduated from a full-stack web development bootcamp from <a href="https://www.lighthouselabs.ca/" style={{color: "blue"}}>Lighthouse Labs</a> in 2022. Before that, I studied Sociology and Criminology at the <a href="https://www.utoronto.ca/" style={{color: "blue"}}>University of Toronto</a>.
+        <p>Coding is one of my newer passions. In my spare time, I love gaming, rock climbing and MMA.</p>
+        <p>Reach out to me on the contact form below!</p>
       </p>
     </div>
   </div>
