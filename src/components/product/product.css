@@ -54,3 +54,10 @@
     height: 100%;
   }
 }
+
+@media screen and (max-width: 1600px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+}
