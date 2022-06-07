@@ -3,7 +3,8 @@ import recipeRepoImage from "./img/recipe-repo.png";
 import jungleImage from "./img/jungle.png";
 import schedulerImage from "./img/scheduler.png";
 import tweeterImage from "./img/tweeter.png";
-import weatherReactImage from "./img/weather-react.png";
+import tinyAppImage from "./img/tiny-app.png";
+// import weatherReactImage from "./img/weather-react.png";
 
 export const products = [
   {
@@ -33,7 +34,7 @@ export const products = [
   },
   {
     id: 6,
-    img: weatherReactImage,
-    link: "https://github.com/justinklam/weather-react"
+    img: tinyAppImage,
+    link: "https://github.com/justinklam/tinyapp"
   },
 ]
