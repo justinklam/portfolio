@@ -6,6 +6,7 @@ import { ThemeContext } from '../../context';
 // Image Assets
 import AddressImg from "../../img/address.png";
 import EmailImg from "../../img/email.png";
+import LinkedInImg from "../../img/linkedIn.png"
 // import PhoneImg from "../../img/phone.png";
 
 const Contact = () => {
@@ -43,20 +44,20 @@ const Contact = () => {
           <h1 className="c-title">Contact Me</h1>
           <div className="c-info">
             <div className="c-info-item">
-                <img 
+              <a href="https://www.google.com/maps/place/Toronto,+ON/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843"><img 
                   src={AddressImg} 
                   alt="" 
                   className="c-icon" 
                 />
-                Toronto, Ontario
+                Toronto, Ontario</a>
               </div>
             <div className="c-info-item">
-              <img 
-                src={EmailImg} 
+              <a href="https://www.linkedin.com/in/justinkhlam/"><img 
+                src={LinkedInImg} 
                 alt="" 
                 className="c-icon" 
               />
-              {/* E-mail */}
+              My LinkedIn Profile</a>
             </div>
           </div>
         </div>
