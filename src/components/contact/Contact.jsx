@@ -51,7 +51,7 @@ const Contact = () => {
                 alt="" 
                 className="c-icon" 
               />
-              My GitHub Profile</a>
+              My GitHub</a>
             </div>
             <div className="c-info-item">
               <a href="https://www.linkedin.com/in/justinkhlam/" style={{color: darkMode && "white"}}><img 
