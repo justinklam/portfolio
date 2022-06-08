@@ -46,7 +46,7 @@ const Contact = () => {
           <div className="c-info">
 
             <div className="c-info-item">
-              <a href="https://github.com/justinklam"><img 
+              <a href="https://github.com/justinklam" style={{color: darkMode && "white"}}><img 
                 src={GitHubImg} 
                 alt="" 
                 className="c-icon" 
@@ -54,7 +54,7 @@ const Contact = () => {
               My GitHub Profile</a>
             </div>
             <div className="c-info-item">
-              <a href="https://www.linkedin.com/in/justinkhlam/"><img 
+              <a href="https://www.linkedin.com/in/justinkhlam/" style={{color: darkMode && "white"}}><img 
                 src={LinkedInImg} 
                 alt="" 
                 className="c-icon" 
@@ -62,7 +62,7 @@ const Contact = () => {
               My LinkedIn Profile</a>
             </div>
             <div className="c-info-item">
-              <a href="https://www.google.com/maps/place/Toronto,+ON/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843"><img 
+              <a href="https://www.google.com/maps/place/Toronto,+ON/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843" style={{color: darkMode && "white"}}><img 
                   src={AddressImg} 
                   alt="" 
                   className="c-icon" 
