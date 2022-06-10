@@ -42,6 +42,10 @@
   animation: move 10s ease-in-out infinite alternate;
 }
 
+.i-scroll {
+  display: none;
+}
+
 /* Title Animation */
 @keyframes move {
   25%{
