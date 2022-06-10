@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "./about.css";
 import { ThemeContext } from '../../context';
 
@@ -6,6 +6,9 @@ import { ThemeContext } from '../../context';
 import profilePic from "../../img/profile.jpg"
 
 const About = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="a">
     <div className="a-left">
@@ -27,8 +30,8 @@ const About = () => {
         I'm a full-stack developer that loves finding unique solutions to challenging problems.
       </p>
       <p className="a-desc">
-        I was born and raised in Canada. I graduated from a full-stack web development bootcamp from <a href="https://www.lighthouselabs.ca/" style={{color: "blue"}}>Lighthouse Labs</a> in 2022. 
-        <p>Before that, I studied Sociology and Criminology at the <a href="https://www.utoronto.ca/" style={{color: "blue"}}>University of Toronto</a>.</p>
+        I was born and raised in Canada. I graduated from a full-stack web development bootcamp from <a href="https://www.lighthouselabs.ca/" style={{color: darkMode && "#6767ef"}}>Lighthouse Labs</a> in 2022. 
+        <p>Before that, I studied Sociology and Criminology at the <a href="https://www.utoronto.ca/" style={{color: darkMode && "#6767ef"}}>University of Toronto</a>.</p>
         <p>Coding is one of my newer passions. In my spare time, I love gaming, rock climbing and MMA.</p>
         <p>Reach out to me on the contact form below!</p>
       </p>
