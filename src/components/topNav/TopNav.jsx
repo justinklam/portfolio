@@ -1,4 +1,6 @@
 import React from 'react'
+
+// CSS
 import "./topNav.css";
 
 // Image Assets

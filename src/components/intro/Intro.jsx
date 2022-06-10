@@ -1,6 +1,10 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../context';
+
+// CSS
 import "./intro.css";
+
+// Image Assets
 // import profile from "../../img/profile.png"
 
 const Intro = () => {

@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../context';
+
+// CSS
 import "./toggle.css";
 
-// Art assets
+// Image Assets
 import Light from "../../img/light-mode.png";
 import Dark from "../../img/dark-mode.png";
 
