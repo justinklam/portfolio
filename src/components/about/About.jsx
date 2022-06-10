@@ -1,5 +1,8 @@
 import React from 'react';
 import "./about.css";
+import { ThemeContext } from '../../context';
+
+// Image Assets
 import profilePic from "../../img/profile.jpg"
 
 const About = () => {
