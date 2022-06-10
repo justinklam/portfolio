@@ -10,7 +10,6 @@ import LinkedInImg from "../../img/linkedIn.png";
 import GitHubImg from "../../img/github.png";
 import AddressImg from "../../img/address.png";
 // import EmailImg from "../../img/email.png";
-// import PhoneImg from "../../img/phone.png";
 
 const Contact = () => {
   const formRef = useRef();
@@ -31,11 +30,11 @@ const Contact = () => {
     .then((result) => {
         console.log(result.text);
         setComplete(true);
+        // to reset contact form text
         e.target.reset();
     }, (error) => {
         console.log(error.text);
     });
-    // to reset email text
   };
 
   return (
