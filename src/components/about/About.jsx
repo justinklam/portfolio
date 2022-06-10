@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
-import "./about.css";
 import { ThemeContext } from '../../context';
+
+// CSS
+import "./about.css";
 
 // Image Assets
 import profilePic from "../../img/profile.jpg"

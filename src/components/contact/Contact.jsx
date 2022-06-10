@@ -1,7 +1,9 @@
 import React, { useContext, useRef, useState } from 'react';
-import "./contact.css";
-import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
+import emailjs from '@emailjs/browser';
+
+// CSS
+import "./contact.css";
 
 // Image Assets
 import LinkedInImg from "../../img/linkedIn.png";
