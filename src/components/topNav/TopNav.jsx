@@ -4,7 +4,7 @@ import React from 'react'
 import "./topNav.css";
 
 // Image Assets
-import Logo from "../../img/logo.png"
+import Logo from "../../img/logo.png";
 
 const TopNav = () => {
   return (
@@ -21,6 +21,6 @@ const TopNav = () => {
       </div>
     </div>
   )
-}
+};
 
-export default TopNav
+export default TopNav;
