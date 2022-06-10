@@ -3,5 +3,9 @@
 **Portfolio** site built with JavaScript, React, HTML/CSS and EmailJS.
 
 
-**Portfolio deployed [here](https://justinklam.netlify.app/), live!**
+**Deployed live [here!](https://justinklam.netlify.app/)**
 
+## Preview
+
+### Project Area
+<img src="./src/img/Portfolio-screen.png" style="border-radius:10px;margin-bottom:1rem;" />
