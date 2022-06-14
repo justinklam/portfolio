@@ -3,7 +3,10 @@ import React from 'react';
 // CSS
 import "./productList.css";
 
+// Components
 import Product from '../product/Product';
+
+// Product Data
 import {products} from "../../data";
 
 const ProductList = () => {
