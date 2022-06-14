@@ -1,3 +1,6 @@
+// Portfolio Card Section
+
+// Image Assets
 import pomopetsImage from "./img/pomo-pets.png";
 import recipeRepoImage from "./img/recipe-repo.png";
 import jungleImage from "./img/jungle.png";
