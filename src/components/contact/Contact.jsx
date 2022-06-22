@@ -9,7 +9,6 @@ import "./contact.css";
 import LinkedInImg from "../../img/linkedIn.png";
 import GitHubImg from "../../img/github.png";
 import AddressImg from "../../img/address.png";
-// import EmailImg from "../../img/email.png";
 
 const Contact = () => {
   const formRef = useRef();
