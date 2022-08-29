@@ -9,6 +9,7 @@ import "./contact.css";
 import AddressImg from "../../img/address.png";
 import GitHubImg from "../../img/github.png";
 import LinkedInImg from "../../img/linkedIn.png";
+import ResumeImg from "../../img/resume.png";
 
 const Contact = () => {
   const formRef = useRef();
@@ -70,7 +71,7 @@ const Contact = () => {
                 href="https://www.canva.com/design/DAFKt14MvsU/Dy1hPQ189Nr-1om7ZuvK1A/view?utm_content=DAFKt14MvsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 style={{ color: darkMode && "white" }}
               >
-                <img src={AddressImg} alt="" className="c-icon" />
+                <img src={ResumeImg} alt="" className="c-icon" />
                 My Resume
               </a>
             </div>
