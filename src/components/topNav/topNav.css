@@ -11,7 +11,19 @@
   padding: 10px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 860px) {
+  .logo {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
