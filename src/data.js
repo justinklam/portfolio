@@ -1,9 +1,9 @@
 // Portfolio Card Section
 
 // Image Assets
-import pomopetsImage from "./img/pomo-pets.png";
 import recipeRepoImage from "./img/recipe-repo.png";
 import jblogImage from "./img/j-blog.png";
+import pomopetsImage from "./img/pomo-pets.png";
 import mapPOIImage from "./img/map-poi.png";
 import schedulerImage from "./img/scheduler.png";
 import tweeterImage from "./img/tweeter.png";
@@ -14,18 +14,18 @@ import tweeterImage from "./img/tweeter.png";
 export const products = [
   {
     id: 1,
-    img: pomopetsImage,
-    link: "https://github.com/justinklam/pomopets",
-  },
-  {
-    id: 2,
     img: recipeRepoImage,
     link: "https://github.com/justinklam/recipe-repo",
   },
   {
-    id: 3,
+    id: 2,
     img: jblogImage,
     link: "https://github.com/justinklam/j-blog",
+  },
+  {
+    id: 3,
+    img: pomopetsImage,
+    link: "https://github.com/justinklam/pomopets",
   },
   {
     id: 4,
